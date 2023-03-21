@@ -1,6 +1,4 @@
-# GitHub Actions Fundamentals
-
-[![GitHub Actions Demo](https://github.com/an-pham/demo-workflow/actions/workflows/github-actions-demo.yml/badge.svg?branch=main)](https://github.com/an-pham/demo-workflow/actions/workflows/github-actions-demo.yml)
+# GitHub Actions Fundamentals [![GitHub Actions Demo](https://github.com/an-pham/demo-workflow/actions/workflows/github-actions-demo.yml/badge.svg?branch=main)](https://github.com/an-pham/demo-workflow/actions/workflows/github-actions-demo.yml)
 
 Repo for the `GitHub Actions Fundamentals` training.
 
