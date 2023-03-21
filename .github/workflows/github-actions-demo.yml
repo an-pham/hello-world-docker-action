@@ -22,3 +22,14 @@ jobs:
         run: |
           echo "The repository ${{ github.repository }} contains the following files:"
           tree
+  share-output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set the date
+        id: date
+        run: |
+          echo "date=$(date)" >> $GITHUB_OUTPUT
+          
+      - name: Get the date
+        run: |
+          echo "Received date: ${{ steps.date.outputs.date }}
